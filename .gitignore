@@ -1,5 +1,16 @@
 .env
 .venv/
 __pycache__/
+*.pyc
+
+# IDE
 .idea/
 *.iml
+.vscode/
+
+# 업로드 원본 / 메타 / 청크
+data/
+.data/
+
+# 청킹 덤프
+chunks_*.json

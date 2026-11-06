@@ -4,13 +4,17 @@ version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
     "chromadb>=1.5.9",
+    "fastapi>=0.141.1",
     "google-genai>=2.23.0",
     "langchain-chroma>=1.1.0",
     "langchain-community>=0.4.2",
     "langchain-openai>=1.6.2",
     "langchain-text-splitters>=1.1.2",
     "protobuf>=7.35.1",
+    "pydantic-settings>=2.15.0",
     "pypdf>=6.18.1",
     "python-dotenv>=1.2.3",
+    "python-multipart>=0.0.32",
     "tiktoken>=0.14.0",
+    "uvicorn[standard]>=0.52.4",
 ]
